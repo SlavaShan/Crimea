@@ -1,0 +1,43 @@
+/* index.html */
+
+.map-content {
+    background: url(../images/map-content-bg.jpg);
+    background-position: top center;
+    height: 766px;
+    width: 100%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/map-content-bg.jpg',sizingMethod='scale')";
+}
+
+.last-news {
+    background: none;
+}
+
+.realty-of-crimea {
+    background: none;
+}   
+
+.last-news-wrap {
+    margin-top: 40px;
+}
+
+.last-news-article {
+    float: left;
+    margin-right: 15px;
+    width: 310px;
+    font-style: Tahoma;
+}
+
+.realty-of-crimea-wrap {
+    margin-top: 40px;
+}
+
+
+/* end index.html */
+
+/* catalog */
+
+.second-row #currency {
+    vertical-align: bottom;
+}
+
+/* end catalog */

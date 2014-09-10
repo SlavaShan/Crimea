@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if IE]><link href="css/ie.css" rel="stylesheet" media="all" /><![endif]-->
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header">
+            <div class="header-wrap container">
+                <a href="index.html" class="logo"></a>
+                <nav class="top-nav">
+                    <ul>
+                        <li><a href="#" class="active">Главная</a></li>
+                        <li><a href="#">О сайте</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-social-content">
+                    <span>Выполнить вход используя аккаунт:</span>
+                    <div class="social-icons clearfix">
+                        <a href="#" class="vk"></a>
+                        <a href="#" class="facebook"></a>
+                        <a href="#" class="twitter"></a>
+                        <a href="#" class="unknown"></a>
+                        <a href="#" class="google-plus"></a>
+                        <a href="#" class="mail-ru"></a>
+                    </div>
+                    <a href="#" class="enter-button">или зарегистрируйся</a>
+                </div>
+            </div>
+        </header><!-- END HEADER -->
+        <main class="main-content">
+            <div class="inner-wrap container">
+                <aside class="sidebar clearfix">
+                    <nav class="main-menu">
+                        <ul>
+                            <span>Категории</span>
+                            <li><a href="#">Аренда жилья посуточно</a></li>
+                            <li><a href="#">Аренда жилья помесячно</a></li>
+                            <li><a href="#">Продажа квартир</a></li>
+                            <li><a href="#">Продажа домов</a></li>
+                            <li><a href="#">Продажа участков</a></li>
+                            <li><a href="#">Аренда коммерческой недвижимости</a></li>
+                            <li><a href="#">Продажа коммерческой недвижимости</a></li>
+                            <li><a href="#">Новострои</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <section class="content">
+                    <div class="advertise-title-line">
+                        <h3>Разместить объявление на нашем сайте :</h3>
+                    </div>
+                    <div class="advertise-content">
+                        <div class="choose-an-option">
+                            <div class="choose-wrap">
+                                <span class="asterisk">*</span>
+                                <select name="" id="choose-option">
+                                    <option>Квартиры. Продажа</option>
+                                    <option>Квартиры. Аренда</option>
+                                </select>
+                            </div>
+                            <span class="tick"></span>
+                        </div>
+                        <div class="choose-an-region">
+                            <div class="choose-wrap">
+                                <span class="asterisk">*</span>
+                                <span class="c-w-t-bold">Регион</span>
+                                <div class="choose-reg-block clearfix">
+                                    <select name="" id="choose-region">
+                                        <option>г.Минск</option>
+                                    </select>
+                                    <p>Введите название населенного пункта <br> или области</p>
+                                </div>
+                            </div>
+                            <span class="tick"></span>
+                        </div>
+                        <div class="choose-an-district">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Район города</span>
+                                <div class="choose-district-block clearfix">
+                                    <select name="" id="choose-region" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-an-community">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Микрорайон</span>
+                                <div class="choose-community-block clearfix">
+                                    <select name="" id="choose-community" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-an-metro">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Метро</span>
+                                <div class="choose-metro-block clearfix">
+                                    <select name="" id="choose-metro" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-an-street">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Улица</span>
+                                <div class="choose-street-block clearfix">
+                                    <select name="" id="choose-street" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-an-house">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Дом</span>
+                                <div class="choose-house-block clearfix">
+                                    <select name="" id="choose-house" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-typeof-advertise">
+                            <div class="choose-wrap">
+                                <span class="asterisk">*</span>
+                                <span class="c-w-t-bold">Тип обявления</span>
+                                <div class="choose-typeof-block clearfix">
+                                    <select name="" id="choose-typeof-advertise">
+                                        <option>Частное</option>
+                                        <option>Коммерческое</option>
+                                    </select>
+                                    <p>
+                                        <span><b>Частное</b> - объявление <a href="#">частного характера.</a></span><br>
+                                        <span><b>Коммерческое</b> - объявление лиц, <br>
+                                        <a href="#">занимающихся коммерческой деятельностью</a> </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <span class="tick"></span>
+                        </div>
+                        <div class="choose-price">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Цена</span>
+                                <div class="choose-price-block clearfix">
+                                    <input type="text">
+                                    <select name="" id="choose-price" value="">
+                                        <option>USD</option>
+                                        <option>EUR</option>
+                                        <option>UAH</option>
+                                        <option>RUB</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-numrooms">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Колличество комнат</span>
+                                <div class="choose-numrooms-block clearfix">
+                                    <select name="" id="choose-numrooms" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-floor">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Этаж</span>
+                                <div class="choose-floor-block">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+
+                        <div class="choose-numstoreys">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Этажность</span>
+                                <div class="choose-numstoreys-block">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-gross-area">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Общаяя площадь</span>
+                                <div class="choose-gross-area-block">
+                                    <input type="text">
+                                    <p>
+                                        пример (м.кв.): 43
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-living-space">
+                            <div class="choose-wrap">
+                                <span class="asterisk">*</span>
+                                <span class="c-w-t-bold">Жилая площадь</span>
+                                <div class="choose-living-space-block">
+                                    <input type="text">
+                                    <p>
+                                        пример (м.кв.): 20
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-kitchen-area">
+                            <div class="choose-wrap">
+                                <span class="asterisk">*</span>
+                                <span class="c-w-t-bold">Жилая площадь</span>
+                                <div class="choose-kitchen-area-block">
+                                    <input type="text">
+                                    <p>
+                                        пример (м.кв.): 10
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-year-built">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Год постройки</span>
+                                <div class="choose-year-built-block">
+                                    <input type="text">
+                                    <p>
+                                        целое число, например: 2010
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-masonry">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Материал стен</span>
+                                <div class="choose-masonry-block clearfix">
+                                    <select name="" id="choose-masonry" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-wc">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Санузел</span>
+                                <div class="choose-wc-block clearfix">
+                                    <select name="" id="choose-wc" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-balcony">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Балкон / Лоджия</span>
+                                <div class="choose-balcony-block clearfix">
+                                    <select name="" id="choose-balcony" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-repair">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Ремонт</span>
+                                <div class="choose-repair-block clearfix">
+                                    <select name="" id="choose-repair" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                    <p>
+                                        <input type="checkbox" id="furniture"><label for="furniture">Мебель</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" id="household-appliances"><label for="household-appliances">Бытовая техника</label>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-floors">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Полы</span>
+                                <div class="choose-floors-block clearfix">
+                                    <select name="" id="choose-floors" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-landline-phone">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Городской телефон</span>
+                                <div class="choose-landline-phone-block clearfix">
+                                    <select name="" id="choose-landline-phone" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-property">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Собственность</span>
+                                <div class="choose-property-block clearfix">
+                                    <select name="" id="choose-property" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                    <p>
+                                        <input type="checkbox" id="internet"><label for="internet">Интернет</label>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-terms-ofsale">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Условия продажи</span>
+                                <div class="choose-terms-ofsale-block clearfix">
+                                    <select name="" id="choose-terms-ofsale" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="choose-type-ofhome">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Ремонт</span>
+                                <div class="choose-type-ofhome-block clearfix">
+                                    <select name="" id="choose-type-ofhome" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                    <p>
+                                        <input type="checkbox" id="chute"><label for="chute">Мусоропровод</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" id="elevator"><label for="elevator">Есть ли лифт</label>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <span class="tick"></span> -->
+                        </div>
+                        <div class="add-listing">
+                            <div class="headline">
+                                <p>Заголовок объявления</p>
+                                <input type="text"><br>
+                                <span>Если поле не будет заполнено, заголовок добаться автоматически</span>
+                            </div>
+                            <div class="add-info">
+                                <p>Текст объявления</p>
+                                <textarea name="" id="" cols="" rows="8"></textarea><br>
+                                <span>Вы можете любую информацию, которой нет выше. Указывать контактную информацию запрещено. Используйте соответствующий блок ниже.</span>
+                            </div>
+                        </div>
+                        <div class="choose-contacts">
+                            <div class="choose-wrap">
+                                <span class="choose-wrap-title c-w-t-bold">Контакты</span>
+                                <div class="choose-contacts-block clearfix">
+                                    <select name="" id="choose-contacts" value="">
+                                        <option>Выберите</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <span class="tick"></span>
+                        </div>
+
+
+
+
+                        <div class="upload-photo">
+                            <div class="upload-photo-block">
+                                <img src="images/upload-img.jpg" alt="">
+                                <a href="#">Добавить фото</a>
+                                <p>
+                                    Размер до 3мб в формате JPG или PNG. Максимальное колличество фотографий 20шт.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="upload-video-link">
+                            <div class="upload-video-link-block">
+                                <p>Ссылка на видео ролик</p>
+                                <textarea name="" id="" cols="" rows="3"></textarea>
+                                <span>
+                                    Для того, чтобы добавить видео ролик, сначала разместите его на видеосервисе Youtube.com или Vimeo.com и вставьте ссылку на него. Продолжительность ролика не должна превышать 3мин.
+                                </span><br>
+                                <a href="#" class="upload-video-link-btn">Добавить ссылку</a>
+                            </div>
+                        </div>
+                        <div class="further-block-btn">
+                            <a href="#" class="further-btn">Далее</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-wrap container">
+                <p>© 2014 Недвижимость Крыма. Все права защищены</p>
+            </div>
+        </footer><!-- END FOOTER -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.maphilight.js"></script>
+        <script src="js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+    </body>
+</html>
